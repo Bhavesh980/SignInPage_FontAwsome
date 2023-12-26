@@ -1,0 +1,218 @@
+*{
+    /* border: 1px rgb(97, 97, 97) solid; */
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+/* *****************header****************** */
+
+header{
+    display: flex;
+    justify-content: center;
+    /* border: 1px red solid; */
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 70%;
+    padding: 15px 0px;
+}
+
+header div img{
+width: 25px;
+}
+
+/* *****************main****************** */
+main{
+    height: 120vh;
+    background-image: url(./bg.svg);
+    position: relative;
+    background-repeat: repeat;
+    overflow: hidden;
+   
+}
+
+
+main #d_forBg >#down{
+    font-size: large;
+    width: 30%;
+  
+    margin: 0 35% 0px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap:15px
+    ;
+    /* border: 1px red solid; */
+    margin-top:15px ;
+}
+
+main #d_forBg >#down p{
+    margin: 0px;
+   
+}
+#d_forBg
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 114, 114, 0.089);
+}
+
+#d_signInCont{
+   
+    width: 30%;
+    margin: 15vh 35% 0px ;
+    background-color: rgb(255, 255, 255);
+    /* height: 500px; */
+    border-radius: 8px;
+    /* border: 1px rgb(171, 171, 171) solid; */
+    box-shadow: 1px 0px 10px black;
+
+}
+
+#d_info > h3,h2,h5,h1{
+    text-align: center;
+}
+
+#d_info h3{
+    color: goldenrod;
+    /* font-size: 20px; */
+    letter-spacing: 3px;
+}
+
+#d_info img{
+    height: 60px;
+    border-radius: 30px;
+}
+#d_info h5{
+    font-weight: normal;
+}
+#d_signInCont img
+{
+    background: gold;
+}
+
+#d_signInCont >div,form{
+    /* border: 1px red solid; */
+    /* margin: 30px 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px 40px 40px;
+}
+#d_signInCont> div{
+    padding-top: 40px;
+}
+
+#d_signInCont label,input,button{
+    width: 100%;
+    
+}
+
+form{
+    gap: 10px;
+    position: relative;
+}
+
+#img_e{
+    position: absolute;
+    top: 40px;
+    left: 6%;
+     border-radius: 50%;
+}
+
+#img_p{
+    position: absolute;
+    top: 120px;
+    left:6%;
+    border-radius: 50%;
+}
+
+
+form>input{
+    height: 40px;
+    padding-left: 40px;
+    border-radius: 10px ;
+    border: 1px rgb(62, 62, 62) solid;
+}
+
+form>label{
+    font-weight: bold;
+  
+    /* padding-left: 10px; */
+}
+form>button{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: gold;
+    font-weight: bold;
+    font-size: large;
+}
+
+#inner{
+   
+     display: flex;
+     justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+    
+}
+
+#inner>div{
+    display: flex;
+    /* width: 60%; */
+    justify-content:space-between;
+}
+
+#inner>div input{
+    width: 20px;
+}
+/* *****************footer****************** */
+footer{
+    /* margin-top: 50px; */
+    /* height: 80px; */
+    /* background-image: url(./bg.svg); */
+    background-color:#183153;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer>div{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 10px;
+
+}
+footer>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer>div>div>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 15px;
+    margin:0px;
+    padding: 0px;
+    
+}
+footer>div>div>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
